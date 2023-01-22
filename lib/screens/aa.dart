@@ -22,6 +22,7 @@ class _AAState extends State<AA> {
       appBar: AppBar(),
       body: Center(child: 
       Stack(children: [
+      
           Container(
             child:_image==null? CircleAvatar(
               backgroundColor: Colors.blue,

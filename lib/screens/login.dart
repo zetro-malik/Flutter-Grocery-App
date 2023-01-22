@@ -224,7 +224,7 @@ class _LoginState extends State<Login> {
                         onTap: () {
                           Navigator.push (
             context,
-            CupertinoPageRoute(builder: (_) => SignUp())
+            CupertinoPageRoute(fullscreenDialog: true,builder: (_) => SignUp())
                 );
                         },
                         child:  Text("Sign Up",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.orange[800]),),

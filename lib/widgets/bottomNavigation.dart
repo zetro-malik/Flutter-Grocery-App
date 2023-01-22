@@ -4,6 +4,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:grocery_app/model/cart.dart';
 import 'package:grocery_app/model/user.dart';
 import 'package:grocery_app/screens/home_page.dart';
+import 'package:grocery_app/screens/login.dart';
 import 'package:grocery_app/widgets/drawer.dart';
 import 'package:grocery_app/widgets/drawer.dart';
 import 'package:grocery_app/widgets/drawer.dart';
@@ -64,8 +65,10 @@ changebtn=false;
             padding: const EdgeInsets.only(right: 24.0),
             child: IconButton(
               onPressed: () {
-                staticUser.obj = null;
-                Navigator.pop(context);
+               staticUser.obj = null;
+               Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return Login();
+              },));
               },
               icon: Icon(
                 Icons.logout_outlined,
@@ -102,6 +105,8 @@ changebtn=false;
                     fontFamily: "galano",
                   ),
                 ),
+                SizedBox(width: 5,),
+                Transform.scale(scale: 1.5, child: Icon(Icons.shopping_cart))
               ],
             ),
           ),
