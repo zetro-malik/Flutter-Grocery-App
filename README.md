@@ -17,12 +17,11 @@ This Flutter application presents a robust integration of RESTful APIs created i
 - Clear and organized codebase
 
 ## Screenshots
-<div>
+
   <img src="https://github.com/zetro-malik/Flutter-Grocery-App/blob/main/screenshots/Screenshot_20230823_123528.jpg" alt="Director View" width="200"/>
   <img src="https://github.com/zetro-malik/Flutter-Grocery-App/blob/main/screenshots/Screenshot_20230823_123533.jpg" alt="Add Room Data View" width="200"/>
   <img src="https://github.com/zetro-malik/Flutter-Grocery-App/blob/main/screenshots/groceryapp.jpg" alt="Add Room Data View" width="200"/>
   
-</div>
 ## Getting Started
 
 1. Clone this repository.
