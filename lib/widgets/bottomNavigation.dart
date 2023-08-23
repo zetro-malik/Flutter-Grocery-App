@@ -9,7 +9,7 @@ import 'package:grocery_app/widgets/drawer.dart';
 import 'package:grocery_app/widgets/drawer.dart';
 import 'package:grocery_app/widgets/drawer.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as bd;
 
 import '../screens/cart.dart';
 
@@ -217,7 +217,7 @@ changebtn=false;
       floatingActionButton: AnimatedContainer(
            duration: Duration(milliseconds: 200),
           width: !changebtn ? 50 : 0,
-        child: Badge(
+        child: bd.Badge(
           badgeColor: const Color.fromARGB(255, 231, 15, 87),
           borderRadius: BorderRadius.circular(40),
           badgeContent:  Padding(

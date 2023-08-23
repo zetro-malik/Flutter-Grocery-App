@@ -44,7 +44,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   badges: ^2.0.3
   velocity_x: ^3.6.0
-  easycartanimation: ^1.0.0+1
 
 dev_dependencies:
   flutter_test:
